@@ -1,0 +1,27 @@
+{
+  "name": "adaptive-tester",
+  "version": "0.0.0",
+  "description": "An adaptive testing engine in JavaScript",
+  "main": " ",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jasmine-node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://claydiffrient@github.com/claydiffrient/TesterJS.git"
+  },
+  "author": "Clay Diffrient <clay.diffrient@gmail.com> (http://simplydiffrient.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/claydiffrient/TesterJS/issues"
+  },
+  "dependencies": {
+    "chance": "~0.5.4"
+  },
+  "devDependencies": {
+    "jasmine-node": "~1.13.0"
+  }
+}
