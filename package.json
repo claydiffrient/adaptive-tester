@@ -19,7 +19,8 @@
     "url": "https://github.com/claydiffrient/TesterJS/issues"
   },
   "dependencies": {
-    "chance": "~0.5.4"
+    "chance": "~0.5.4",
+    "mongoose": "~3.8.7"
   },
   "devDependencies": {
     "jasmine-node": "~1.13.0"
