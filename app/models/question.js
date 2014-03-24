@@ -22,7 +22,6 @@ var QuestionSchema = new Schema({
         trim: true
     },
     // Array of answers to the question.
-    // TODO: Add validation that prevents more than one correct answer.
     answers: {
         type: [{text: String, correct: Boolean}],
         required: true
