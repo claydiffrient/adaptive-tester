@@ -44,7 +44,6 @@ describe('<Unit Test>', function () {
             it('should fail if more than one answer is correct', function () {
                 question.answers[1].correct = true;
                 question.save(function (err) {
-                    console.log(err);
                     expect(err).toBeDefined();
                 });
             });
