@@ -11,18 +11,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://claydiffrient@github.com/claydiffrient/TesterJS.git"
+    "url": "https://claydiffrient@github.com/claydiffrient/adaptive-tester.git"
   },
   "author": "Clay Diffrient <clay.diffrient@gmail.com> (http://simplydiffrient.com/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/claydiffrient/TesterJS/issues"
+    "url": "https://github.com/claydiffrient/adaptive-tester/issues"
   },
   "dependencies": {
     "chance": "~0.5.4",
-    "mongoose": "~3.8.7"
+    "mongoose": "~3.8.7",
+    "express": "^3.5.0",
+    "lodash": "^2.4.1"
   },
   "devDependencies": {
-    "jasmine-node": "~1.13.0"
+    "jasmine-node": "~1.13.0",
+    "bower": "^1.3.1"
   }
 }
