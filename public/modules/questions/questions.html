@@ -1,0 +1,24 @@
+<table class="table table-striped">
+   <thead>
+      <tr>
+         <th>Question Text</th>
+         <th>Answers</th>
+         <th>Times Asked</th>
+         <th>Times Correct</th>
+      </tr>
+   </thead>
+   <tbody>
+      <tr ng-repeat="question in ctrl.questions">
+         <td>{{question.text}}</td>
+         <td>
+            <ul>
+               <li ng-repeat="answer in question.answers">
+                  {{answer.text}}
+               </li>
+            </ul>
+         </td>
+         <td>{{question.asked}}</td>
+         <td>{{question.correct}}</td>
+      </tr>
+   </tbody>
+</table>

@@ -29,7 +29,7 @@ exports.walk = function(root, includeRegex, excludeRegex, removePath) {
 
     // Then recursively add directories
     directories.forEach(function(directory) {
-        output = output.concat(_walk(directory, includeRegex, excludeRegex, removePath));
+        output = output.concat(exports.walk(directory, includeRegex, excludeRegex, removePath));
     });
 
     return output;

@@ -24,10 +24,9 @@ module.exports = function (db) {
     });
 
     // Setup some local variables
-    /*app.locals({
-        modulesJSFiles: utilities.walk('./public/modules', /(.*)\.(js)/, /(.*)\.(spec.js)/, './public'),
-        modulesCSSFiles: utilities.walk('./public/modules', /(.*)\.(css)/, null, './public')
-    }); */
+    //
+    app.locals.modulesJSFiles = utilities.walk('./public/modules', /(.*)\.(js)/, /(.*)\.(spec.js)/, './public');
+    app.locals.modulesCSSFiles = utilities.walk('./public/modules', /(.*)\.(css)/, null, './public');
 
 
     if (env == 'development') {
