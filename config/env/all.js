@@ -9,5 +9,6 @@ module.exports = {
         description: 'An adaptive testing engine in JavaScript'
     },
     root: rootPath,
-    port: process.env.PORT || 3000
-}
+    port: process.env.PORT || 3000,
+    templateEngine: 'swig'
+};
