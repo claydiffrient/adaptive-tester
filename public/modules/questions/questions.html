@@ -12,9 +12,7 @@
          <td>{{question.text}}</td>
          <td>
             <ul>
-               <li ng-repeat="answer in question.answers">
-                  {{answer.text}}
-               </li>
+               <li ng-class="{bold: answer.correct}" ng-repeat="answer in question.answers">{{answer.text}}</li>
             </ul>
          </td>
          <td>{{question.asked}}</td>

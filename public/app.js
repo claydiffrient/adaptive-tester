@@ -7,6 +7,10 @@ app.config(function ($routeProvider, $locationProvider) {
         templateUrl: 'modules/questions/questions.html',
         controller: 'QuestionController',
         controllerAs: 'ctrl'
+    }).when('/questions/add', {
+        templateUrl: 'modules/questions/addquestions.html',
+        controller: 'QuestionController',
+        controllerAs: 'ctrl'
     });
 
     $locationProvider.html5Mode(true);
